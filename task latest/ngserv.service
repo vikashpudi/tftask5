@@ -1,0 +1,10 @@
+[Unit]
+Description=this for ng start Service  
+
+[Service]
+user=vikash
+WorkingDirectory=/home/vikash/angular-realworld-example-app/
+ExecStart=/usr/bin/ng serve --host 0.0.0.0
+
+[Install]
+WantedBy=multi-user.target
